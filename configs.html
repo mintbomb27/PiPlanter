@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+<title>NaySo Server</title>
+</head>
+<style>
+@font-face{ 
+	font-family: 'Ubuntu';
+	src: url('fonts/ubuntu.eot');
+	src: url('fonts/ubuntu.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/ubuntu.woff') format('woff'),
+	     url('fonts/ubuntu.ttf') format('truetype'),
+	     url('fonts/ubuntu.svg#webfont') format('svg');
+}
+body{
+        font-family: "Ubuntu", "Georgia";
+        color: white;
+        background: #00440d;
+}
+.border
+{
+	position: center;
+	border-style:solid;
+	border-color:darkgreen;
+	border-width:15px;
+	font-size: 200%;
+	text-align:center;
+	align:justify;
+}
+.see{
+	background: darkgreen;
+	padding: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	transition: 0.5s;
+	border: 0;
+	font-family: "Ubuntu";
+}
+.see:hover{
+	background: #00440d;
+	cursor: pointer;
+	color: yellow;
+}
+.sub{
+	padding-bottom: 30px;
+}
+.theone {
+	border: 1px darkgreen;
+	border-radius: 1px;
+	width: 300px;
+	height: 30px;
+	font-size: 20px;
+	color: white;
+	background: darkgreen;
+	font-family: Ubuntu;
+	padding: 10px;
+}
+::placeholder{
+	color: white;
+	font-family: Ubuntu;
+}
+</style>
+<body bgcolor="#56B823">
+<h1 style="color: yellow;text-align:center; font-size:300%">Configurations<br></h1>
+<div class="border"><br>
+	<form action="insert.php" method="post">
+		<p>
+			<!-- <label for="Name">Name of Config: </label> -->
+			<input class ="theone" type="text" placeholder="Name" name="config_name" maxlength="40" id="Name" required>
+		</p>
+		<p>
+		<!-- 	<label for="tempp">Temperature: </label> -->
+			<input class ="theone" type="number" min="-50" max="100" maxlength="2" placeholder="Temperature" name="temp" id="tempp" required>
+		</p>
+		<p>
+			<!-- <label for="light_i">Light Intensity: </label> -->
+			<input class ="theone" type="number" maxlength="4" min="0" max="10" placeholder="Light Intensity" name="light" id="light_i" required>
+		</p>
+		<div class="sub">
+			<input type="submit" value="Update" class="see">
+		</div>
+	</form>
+</div>
+</body>
+</html>
