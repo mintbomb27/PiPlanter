@@ -1,7 +1,7 @@
 <?php
 $dbhost = 'localhost';
-$dbuser = 'root';
-$dbpass = 'manuvava';
+$dbuser = '';
+$dbpass = '';
 $conn = mysql_connect($dbhost, $dbuser, $dbpass);
 if(! $conn )
 {
