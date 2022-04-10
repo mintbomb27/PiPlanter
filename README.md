@@ -16,7 +16,7 @@ PiPlanter is a plant growth automating and monitoring system that helps impartin
   * Apache Server
 * NodeMCU for wireless sensor data transfer
 
-## 🏆 Awards Received for the Projects
+## 🏆 Awards Received for the Project
 * PV Mathew Memorial Innovators Awarc
 * YIP Scholarship from K-DISC
 * Kerala State Science Festival 2018 1st Place
