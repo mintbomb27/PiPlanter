@@ -16,6 +16,10 @@ PiPlanter is a plant growth automating and monitoring system that helps impartin
   * Apache Server
 * NodeMCU for wireless sensor data transfer
 
+## 💼 Setup
+* Setup LAMP Server in Raspberry Pi
+* Setup NodeMCU, connect them in the same network
+
 ## 🏆 Awards Received for the Project
 * PV Mathew Memorial Innovators Awarc
 * YIP Scholarship from K-DISC
